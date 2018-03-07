@@ -1,0 +1,11 @@
+<h1> Burbank, CA </h1>
+
+<ul>
+    <li> Humidity: {{ weather.main.humidity }} </li>
+    <li>Temperature(Average): {{ (weather.main.temp_min + weather.main.temp_max)/2}}</li>
+    <li>Temperature(High): {{ weather.main.temp_max }}</li>
+    <li>Temperature(Low): {{ weather.main.temp_min }}</li>
+    <li>Status: {{weather.weather[0].description}}</li>
+</ul>
+
+  <img src="https://i.pinimg.com/originals/f0/5d/c5/f05dc52ca3b5585f7cd68c3928e3e5cc.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" width="300">

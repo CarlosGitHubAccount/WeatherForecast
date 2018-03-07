@@ -1,0 +1,12 @@
+<h1> Dallas, TX </h1>
+
+<ul>
+    <li> Humidity: {{ weather.main.humidity }} </li>
+    <li>Temperature(Average): {{ (weather.main.temp_min + weather.main.temp_max)/2}}</li>
+    <li>Temperature(High): {{ weather.main.temp_max }}</li>
+    <li>Temperature(Low): {{ weather.main.temp_min }}</li>
+    <li>Status: {{weather.weather[0].description}}</li>
+</ul>
+
+  <img src="https://images.pexels.com/photos/919416/pexels-photo-919416.jpeg?w=1260&h=750&dpr=3&auto=compress&cs=tinysrgb" width="300">
+
